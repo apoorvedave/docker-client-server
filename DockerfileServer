@@ -1,0 +1,5 @@
+# DockerfileServer: Server Docker file
+FROM python:2.7
+
+COPY server.py /src/
+CMD ["python", "/src/server.py"]

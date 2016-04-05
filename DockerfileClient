@@ -1,0 +1,5 @@
+# DockerfileClient: Client Docker file
+FROM python:2.7
+
+COPY client.py /src/
+CMD ["python", "/src/client.py"]
